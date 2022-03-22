@@ -6,8 +6,6 @@ function callme(a){
     console.log("Call me finished")
 } //a is a function
 
-callme(function(data){
-    console.log(data," is received")
-})
+callme(i)
 
 //callback function is a function which is passed as parameter to another function
